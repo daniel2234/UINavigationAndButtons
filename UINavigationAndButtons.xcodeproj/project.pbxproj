@@ -17,6 +17,9 @@
 		65B17F8B1AE037F400CD2EBF /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B17F8A1AE037F400CD2EBF /* FavouritesViewController.m */; };
 		65B17F8E1AE0454200CD2EBF /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B17F8D1AE0454200CD2EBF /* FeedViewController.m */; };
 		65B17F911AE0455C00CD2EBF /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B17F901AE0455C00CD2EBF /* ProfileViewController.m */; };
+		65B17F9B1AE05E9400CD2EBF /* Favourite_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B17F981AE05E9400CD2EBF /* Favourite_icon.png */; };
+		65B17F9C1AE05E9400CD2EBF /* Feed_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B17F991AE05E9400CD2EBF /* Feed_icon.png */; };
+		65B17F9D1AE05E9400CD2EBF /* Profile_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B17F9A1AE05E9400CD2EBF /* Profile_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		65B17F8D1AE0454200CD2EBF /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedViewController.m; path = ../FeedViewController.m; sourceTree = "<group>"; };
 		65B17F8F1AE0455C00CD2EBF /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ../ProfileViewController.h; sourceTree = "<group>"; };
 		65B17F901AE0455C00CD2EBF /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ../ProfileViewController.m; sourceTree = "<group>"; };
+		65B17F981AE05E9400CD2EBF /* Favourite_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favourite_icon.png; sourceTree = "<group>"; };
+		65B17F991AE05E9400CD2EBF /* Feed_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feed_icon.png; sourceTree = "<group>"; };
+		65B17F9A1AE05E9400CD2EBF /* Profile_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				65B17F6B1AE0326500CD2EBF /* ViewController.m */,
 				65B17F6D1AE0326500CD2EBF /* Main.storyboard */,
 				65B17F701AE0326500CD2EBF /* Images.xcassets */,
+				65B17F981AE05E9400CD2EBF /* Favourite_icon.png */,
+				65B17F991AE05E9400CD2EBF /* Feed_icon.png */,
+				65B17F9A1AE05E9400CD2EBF /* Profile_icon.png */,
 				65B17F721AE0326500CD2EBF /* LaunchScreen.xib */,
 				65B17F631AE0326500CD2EBF /* Supporting Files */,
 			);
@@ -214,8 +223,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B17F9D1AE05E9400CD2EBF /* Profile_icon.png in Resources */,
 				65B17F6F1AE0326500CD2EBF /* Main.storyboard in Resources */,
 				65B17F741AE0326500CD2EBF /* LaunchScreen.xib in Resources */,
+				65B17F9B1AE05E9400CD2EBF /* Favourite_icon.png in Resources */,
+				65B17F9C1AE05E9400CD2EBF /* Feed_icon.png in Resources */,
 				65B17F711AE0326500CD2EBF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

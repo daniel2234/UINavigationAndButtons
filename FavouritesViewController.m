@@ -19,7 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = @"Favourites";
-        self.tabBarItem.image = [UIImage imageNamed:@"tab_icon_favorites"];
+        self.tabBarItem.image = [UIImage imageNamed:@"Favourite_icon.png"];
     }
     return self;
 }

@@ -26,7 +26,7 @@
     FavouritesViewController *favouritesViewController = [[FavouritesViewController alloc]init];
     
     UITabBarController *tabController = [[UITabBarController alloc]init];
-    tabController.viewControllers = @[profileNavController];
+    tabController.viewControllers = @[feedViewController, profileNavController, favouritesViewController];
     
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     
