@@ -14,6 +14,7 @@
 		65B17F711AE0326500CD2EBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B17F701AE0326500CD2EBF /* Images.xcassets */; };
 		65B17F741AE0326500CD2EBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B17F721AE0326500CD2EBF /* LaunchScreen.xib */; };
 		65B17F801AE0326500CD2EBF /* UINavigationAndButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B17F7F1AE0326500CD2EBF /* UINavigationAndButtonsTests.m */; };
+		65B17F8B1AE037F400CD2EBF /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B17F8A1AE037F400CD2EBF /* FavouritesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		65B17F791AE0326500CD2EBF /* UINavigationAndButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UINavigationAndButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B17F7E1AE0326500CD2EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B17F7F1AE0326500CD2EBF /* UINavigationAndButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavigationAndButtonsTests.m; sourceTree = "<group>"; };
+		65B17F891AE037F400CD2EBF /* FavouritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavouritesViewController.h; path = ../FavouritesViewController.h; sourceTree = "<group>"; };
+		65B17F8A1AE037F400CD2EBF /* FavouritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavouritesViewController.m; path = ../FavouritesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				65B17F671AE0326500CD2EBF /* AppDelegate.h */,
 				65B17F681AE0326500CD2EBF /* AppDelegate.m */,
+				65B17F891AE037F400CD2EBF /* FavouritesViewController.h */,
+				65B17F8A1AE037F400CD2EBF /* FavouritesViewController.m */,
 				65B17F6A1AE0326500CD2EBF /* ViewController.h */,
 				65B17F6B1AE0326500CD2EBF /* ViewController.m */,
 				65B17F6D1AE0326500CD2EBF /* Main.storyboard */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B17F8B1AE037F400CD2EBF /* FavouritesViewController.m in Sources */,
 				65B17F6C1AE0326500CD2EBF /* ViewController.m in Sources */,
 				65B17F691AE0326500CD2EBF /* AppDelegate.m in Sources */,
 				65B17F661AE0326500CD2EBF /* main.m in Sources */,
