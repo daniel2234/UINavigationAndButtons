@@ -10,4 +10,6 @@
 
 @interface ProfileViewController : ViewController
 
+-(void) showZoomedProfile:(UIButton*) sender;
+
 @end
