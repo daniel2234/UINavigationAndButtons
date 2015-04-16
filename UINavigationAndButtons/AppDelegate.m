@@ -5,8 +5,9 @@
 //  Created by Daniel Kwiatkowski on 2015-04-16.
 //  Copyright (c) 2015 Daniel Kwiatkowski. All rights reserved.
 //
-
-#import "ViewController.h"
+#import "FeedViewController.h"
+#import "ProfileViewController.h"
+#import "FavouritesViewController.h"
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -17,7 +18,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    ProfileViewController *profileViewController = [[ProfileViewController alloc]init];
+    UINavigationController *profileNavController = [[UINavigationController alloc]initWithRootViewController:profileViewController];
+    
+    FeedViewController *feedViewController = [[FeedViewController alloc]init];
+    
+    FavouritesViewController *favouritesViewController = [[FavouritesViewController alloc]init];
+    
+    UITabBarController *tabController = [[UITabBarController alloc]init];
+    tabController.viewControllers = @[profileNavController];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    
+    self.window.rootViewController = tabController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
