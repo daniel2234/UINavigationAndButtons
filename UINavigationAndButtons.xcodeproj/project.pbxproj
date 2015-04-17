@@ -20,6 +20,7 @@
 		65B17F9B1AE05E9400CD2EBF /* Favourite_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B17F981AE05E9400CD2EBF /* Favourite_icon.png */; };
 		65B17F9C1AE05E9400CD2EBF /* Feed_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B17F991AE05E9400CD2EBF /* Feed_icon.png */; };
 		65B17F9D1AE05E9400CD2EBF /* Profile_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B17F9A1AE05E9400CD2EBF /* Profile_icon.png */; };
+		65B17F9F1AE077F400CD2EBF /* Recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65B17F9E1AE077F400CD2EBF /* Recipes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		65B17F981AE05E9400CD2EBF /* Favourite_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favourite_icon.png; sourceTree = "<group>"; };
 		65B17F991AE05E9400CD2EBF /* Feed_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feed_icon.png; sourceTree = "<group>"; };
 		65B17F9A1AE05E9400CD2EBF /* Profile_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile_icon.png; sourceTree = "<group>"; };
+		65B17F9E1AE077F400CD2EBF /* Recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Recipes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				65B17F981AE05E9400CD2EBF /* Favourite_icon.png */,
 				65B17F991AE05E9400CD2EBF /* Feed_icon.png */,
 				65B17F9A1AE05E9400CD2EBF /* Profile_icon.png */,
+				65B17F9E1AE077F400CD2EBF /* Recipes.plist */,
 				65B17F721AE0326500CD2EBF /* LaunchScreen.xib */,
 				65B17F631AE0326500CD2EBF /* Supporting Files */,
 			);
@@ -225,6 +228,7 @@
 			files = (
 				65B17F9D1AE05E9400CD2EBF /* Profile_icon.png in Resources */,
 				65B17F6F1AE0326500CD2EBF /* Main.storyboard in Resources */,
+				65B17F9F1AE077F400CD2EBF /* Recipes.plist in Resources */,
 				65B17F741AE0326500CD2EBF /* LaunchScreen.xib in Resources */,
 				65B17F9B1AE05E9400CD2EBF /* Favourite_icon.png in Resources */,
 				65B17F9C1AE05E9400CD2EBF /* Feed_icon.png in Resources */,

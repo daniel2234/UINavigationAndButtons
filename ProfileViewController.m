@@ -28,15 +28,14 @@
     [super viewDidLoad];
     
     UIButton *profileButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [profileButton setImage:[UIImage imageNamed:@"profile_name"] forState:UIControlStateNormal];
-    [profileButton setImage:[UIImage imageNamed:@"profile_name"] forState:UIControlStateHighlighted];
+    [profileButton setImage:[UIImage imageNamed:@"Profile_icon.png"] forState:UIControlStateNormal];
+    [profileButton setImage:[UIImage imageNamed:@"Profile_icon.png"] forState:UIControlStateHighlighted];
     [profileButton setTitle:@"Profile Image" forState:UIControlStateNormal];
     
     profileButton.frame = CGRectMake(15, 15, 200, 189);
     
     [self.view addSubview:profileButton];
     [profileButton addTarget:self action:@selector(showZoomedProfile:) forControlEvents:UIControlEventTouchUpInside];
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,14 +45,6 @@
 
 -(void) showZoomedProfile:(UIButton *)sender
 {
-    //animation
-//    UIButton *zoomedProfileButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//    zoomedProfileButton.frame = CGRectMake(15, 15, 200, 189);
-//    self.frame = CGRectMake(0.0f, 0.0f, 200.0f, 150.0f);
-//    [UIView beginAnimations:@"Zoom" context:NULL];
-//    [UIView setAnimationDuration:0.5];
-//    self.frame = CGRectMake(0.0f, 0.0f, 1024.0f, 768.0f);
-//    [UIView commitAnimations];
     NSLog(@"Zoomed in on Profile");
 }
 
